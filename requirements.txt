@@ -16,5 +16,7 @@ tensorflow-cpu
 opencv-python-headless
 nltk
 Pillow
+textblob
+gensim
 keras
 tensorflow_hub
