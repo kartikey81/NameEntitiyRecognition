@@ -17,6 +17,6 @@ opencv-python-headless
 nltk
 Pillow
 textblob
-gensim
+gensim==3.8.3
 keras
 tensorflow_hub
