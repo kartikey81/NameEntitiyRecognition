@@ -10,7 +10,7 @@ spacy
 scikit-learn
 matplotlib
 pandas
-
+en_core_web_sm
 streamlit
 tensorflow-cpu
 
