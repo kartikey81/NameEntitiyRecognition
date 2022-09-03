@@ -10,13 +10,12 @@ spacy==2.1.3
 scikit-learn
 matplotlib
 pandas
-flasgger
+
 streamlit
 tensorflow-cpu
-opencv-python-headless
+
 nltk
 Pillow
 textblob
 gensim==3.8.3
 keras
-tensorflow_hub
