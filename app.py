@@ -9,7 +9,7 @@ from nltk.tokenize import sent_tokenize
 from gensim.summarization.summarizer import summarize 
 
 import spacy
-nlp = spacy.load("en")
+nlp = spacy.load("en_core_web_sm")
 
 
 from collections import Counter
