@@ -79,5 +79,5 @@ st.markdown("***")
 # About
 expander_bar = st.expander("About")
 expander_bar.markdown("""
-Jainika Daga, Student, Department of Computer Engineering
+Kartikey Sharma, Student, Department of Computer Engineering
 """)
