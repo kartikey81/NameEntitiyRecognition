@@ -1,4 +1,3 @@
-
 #Necessary imports
 import streamlit as st
 import nltk
@@ -9,7 +8,8 @@ from nltk.tokenize import sent_tokenize
 from gensim.summarization.summarizer import summarize 
 
 import spacy
-nlp = spacy.load("en_core_web_sm")
+import en_core_web_sm
+nlp = en_core_web_sm.load()
 
 
 from collections import Counter
@@ -79,5 +79,5 @@ st.markdown("***")
 # About
 expander_bar = st.expander("About")
 expander_bar.markdown("""
-Kartikey Sharma, Student, Department of Computer Engineering
+Jainika Daga, Student, Department of Computer Engineering
 """)
